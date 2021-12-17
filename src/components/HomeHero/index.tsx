@@ -23,7 +23,6 @@ function HomeHero() {
             {'\u007D'}
           </CodeItem>
           <CodeItem>
-
             <span className="purple">Cargo</span> {'\u007b'}
             <div>
               Função: <span className="blue">Dev Front-end,</span>

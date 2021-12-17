@@ -24,5 +24,36 @@ export const Container = styled.section`
 `;
 
 export const ItemContainer = styled.div`
+  > div {
+    background: ${({ theme }) => theme.gradient};
+    padding: 1rem;
+    padding-top: 2.5rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 
+    transition: 05s;
+
+    h1 {
+      color: ${({ theme}) => theme.primary}
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      color: ${({ theme }) => theme.secondary};
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: ${({ theme }) => theme.textHighlight};
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+  }
 `;
