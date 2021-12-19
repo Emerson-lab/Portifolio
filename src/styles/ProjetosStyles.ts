@@ -11,7 +11,8 @@ export const ProjetoContainer = styled.div`
     margin-bottom: 5rem;
     width: 100%;
     display: grid;
-    grid-template-columns: (4, 1fr);
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
 
     @media (max-width: 1000px) {
       grid-template-columns: 1fr 1fr;
