@@ -6,7 +6,7 @@ function Header(){
     <Container>
       <ul>
         <NavLink title="Home" path="/"/>
-        <NavLink title="Projetos" path="/Projetos"/>
+        <NavLink title="Projetos" path="/projetos"/>
       </ul>
 
     </Container>
