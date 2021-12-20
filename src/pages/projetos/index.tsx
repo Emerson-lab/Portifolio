@@ -1,6 +1,7 @@
+import { ProjetoContainer } from '../../styles/ProjetosStyles';
+
 import Header from '../../components/Header';
 import ProjetoItem from '../../components/ProjetoItem';
-import { ProjetoContainer } from '../../styles/ProjetosStyles';
 
 export default function Projetos() {
   return (

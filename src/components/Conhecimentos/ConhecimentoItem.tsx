@@ -1,5 +1,6 @@
-import { ReactNode } from "react";
 import {ConhecimentoContainer} from "./styles";
+
+import { ReactNode } from "react";
 
 interface ConchecimentoProps {
   title: string;

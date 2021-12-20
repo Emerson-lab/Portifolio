@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
   display: flex;
@@ -9,6 +9,6 @@ export const HomeContainer = styled.div`
   > main {
     display: flex;
     flex-direction: column;
-    gap: 8rem
+    gap: 8rem;
   }
 `;

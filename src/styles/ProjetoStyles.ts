@@ -1,5 +1,6 @@
-import { darken } from "polished";
-import styled from "styled-components";
+import styled from 'styled-components';
+
+import { darken } from 'polished';
 
 export const ProjetoContainer = styled.div`
   display: flex;
@@ -14,11 +15,10 @@ export const ProjetoContainer = styled.div`
     padding: 0 5rem;
 
     p {
-      color:${({ theme }) => theme.textLight};
+      color: ${({ theme }) => theme.textLight};
       font-size: 1.5rem;
       font-weight: 300;
       text-align: justify;
-
     }
 
     button {
@@ -41,7 +41,7 @@ export const ProjetoContainer = styled.div`
       }
     }
 
-    @media(max-width: 700px) {
+    @media (max-width: 700px) {
       padding: 0 2.5rem;
 
       P {

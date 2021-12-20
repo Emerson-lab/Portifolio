@@ -1,4 +1,5 @@
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
+
 import picture from '../../assets/pessoa.webp';
 
 function HomeHero() {

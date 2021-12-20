@@ -7,10 +7,10 @@ interface ProjetoProps {
   title: string;
   type: string;
   slug: string;
-  img: string
+  img: string;
 }
 
-export default function ProjetoItem({title, type, slug, img}: ProjetoProps) {
+export default function ProjetoItem({ title, type, slug, img }: ProjetoProps) {
   return (
     <ProjetoContainer imgUrl={img}>
       <section>

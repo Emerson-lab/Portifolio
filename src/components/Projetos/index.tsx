@@ -1,4 +1,5 @@
 import { Container } from './styles';
+
 import SectionTitle from '../SectionTitle';
 import ProjetoItem from './ProjetoItem';
 
@@ -28,7 +29,7 @@ function Projetos() {
           type="Website"
           slug="teste"
         />
-              </section>
+      </section>
       <button type="button">
         <Link href="/projetos">
           <a>Ver todos os projetos</a>

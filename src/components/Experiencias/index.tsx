@@ -1,6 +1,7 @@
+import { Container } from './styles';
+
 import SectionTitle from '../SectionTitle';
 import ExperienciaItem from './ExperienciaItem';
-import { Container } from './styles';
 
 function Experiencias() {
   return (
