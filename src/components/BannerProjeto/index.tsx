@@ -3,7 +3,7 @@ import { Container } from './styles';
 interface BannerProjetoProps {
   title: string;
   type: string;
-  imgUrl: string
+  imgUrl: string;
 }
 
 function BannerProjeto({ title, type, imgUrl }: BannerProjetoProps) {
@@ -16,6 +16,6 @@ function BannerProjeto({ title, type, imgUrl }: BannerProjetoProps) {
       </section>
     </Container>
   );
-};
+}
 
 export default BannerProjeto;
