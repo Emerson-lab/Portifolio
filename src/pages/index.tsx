@@ -8,6 +8,10 @@ import Conhecimentos from '../components/Conhecimentos';
 import FormContato from '../components/FormContato';
 import Footer from '../components/Footer';
 
+import { GetStaticProps } from 'next';
+import { getPrismicClient } from '../services/prismic';
+import Prismic from '@prismicio/client';
+
 export default function Home() {
   return (
     <HomeContainer>
@@ -23,3 +27,17 @@ export default function Home() {
     </HomeContainer>
   );
 }
+
+export const getStaticprops: GetStaticProps = async () => {
+  const prismic = getPrismicClient();
+
+  const projectResponse = await prismic.query(
+    [Prismic.Predicates.at('document.type', 'portfolio')],
+    { orderings: '[document.first_publication_date desc]' }
+    );
+
+    console.log(projectResponse);
+    return {
+      props: {}
+    };
+  };
