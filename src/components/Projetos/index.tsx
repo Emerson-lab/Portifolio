@@ -4,7 +4,7 @@ import SectionTitle from '../SectionTitle';
 import ProjetoItem from './ProjetoItem';
 
 
-import imgProjectPlataform from '../../assets/event-plataform-img.png'
+import imgProjectPlataform from '../../assets/event-plataform-img.webp'
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';

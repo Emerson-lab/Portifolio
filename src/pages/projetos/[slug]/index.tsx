@@ -3,7 +3,7 @@ import { ProjetoContainer } from '../../../styles/ProjetoStyles';
 import BannerProjeto from '../../../components/BannerProjeto';
 import Header from '../../../components/Header';
 
-import imgEventPlataform from "../../../assets/event-plataform-img.png"
+import imgEventPlataform from "../../../assets/event-plataform-img.webp"
 
 export default function Projeto() {
   return (

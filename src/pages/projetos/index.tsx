@@ -5,7 +5,7 @@ import ProjetoItem from '../../components/ProjetoItem';
 import { useEffect, useState } from 'react';
 import { get_Repos } from '../../services/get';
 
-import imgEventPlataform from '../../assets/event-plataform-img.png';
+import imgEventPlataform from '../../assets/event-plataform-img.webp';
 
 export default function Projetos() {
   const [repo, setRepo] = useState([]);
