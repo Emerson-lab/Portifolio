@@ -5,8 +5,8 @@ import ProjetoItem from '../../components/ProjetoItem';
 import { useEffect, useState } from 'react';
 import { get_Repos } from '../../services/get';
 
-import imgEventPlataform from '../../assets/event-plataform-img.png'
-import imgWorldTrip from '../../assets/world-trip.png'
+import imgEventPlataform from '../../assets/event-plataform-img.png';
+import imgWorldTrip from '../../assets/world-trip.png';
 
 export default function Projetos() {
   const [repo, setRepo] = useState([]);
@@ -14,7 +14,7 @@ export default function Projetos() {
   useEffect(() => {
     get_Repos().then(response => {
       setRepo(response.data)
-      console.log(repo)
+      // console.log(repo)
     })
   },[])
   return (
@@ -30,7 +30,7 @@ export default function Projetos() {
         <ProjetoItem
           title="World Trip"
           type="Website"
-          img={imgWorldTrip}
+          img='/assets/world-trip.png'
           slug="world-trip"
         />
         <ProjetoItem
