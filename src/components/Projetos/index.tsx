@@ -10,8 +10,6 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { get_Repos } from '../../services/get';
 
-import imgWorldTrip from '../../assets/world-trip.png';
-
 function Projetos() {
   const [repo, setRepo] = useState([]);
 
@@ -33,12 +31,7 @@ function Projetos() {
           slug="event-platarform"
         />
     
-        <ProjetoItem
-          img={imgWorldTrip}
-          title="World Trip"
-          type="Website"
-          slug="world-trip"
-        />
+ 
       </section>
       <button type="button">
         <Link href="/projetos">
