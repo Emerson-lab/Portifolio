@@ -3,12 +3,12 @@ import { Container } from './styles';
 interface BannerProjetoProps {
   title: string;
   type: string;
-  imgUrl: string;
+  img: string;
 }
 
-function BannerProjeto({ title, type, imgUrl }: BannerProjetoProps) {
+function BannerProjeto({ title, type, img }: BannerProjetoProps) {
   return (
-    <Container imgUrl={imgUrl}>
+    <Container img={img}>
       <div className="overlay" />
       <section>
         <h1>{title}</h1>

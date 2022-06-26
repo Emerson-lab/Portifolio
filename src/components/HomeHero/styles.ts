@@ -5,12 +5,17 @@ export const Container = styled.section`
   display: flex;
   gap: 2rem;
   align-items: center;
-  justify
   margin-top: 5rem;
 
-  > img {
-    width: 40rem;
+  .content-photo{
     flex: 1;
+  
+  }
+
+   img {
+    width: 320px !important;
+    height: 340px;
+   
   }
 
   > div {

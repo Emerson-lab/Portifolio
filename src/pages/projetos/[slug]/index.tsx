@@ -3,14 +3,16 @@ import { ProjetoContainer } from '../../../styles/ProjetoStyles';
 import BannerProjeto from '../../../components/BannerProjeto';
 import Header from '../../../components/Header';
 
+import imgEventPlataform from "../../../assets/event-plataform-img.png"
+
 export default function Projeto() {
   return (
     <ProjetoContainer>
       <Header />
       <BannerProjeto
-        title="Projeto 01"
+        title="Events Plataform"
         type="website"
-        imgUrl="https://www.visus360.com.br/wp-content/uploads/2021/05/types-of-websites.jpg"
+        img={imgEventPlataform}
       />
 
       <main>
@@ -27,7 +29,7 @@ export default function Projeto() {
           voluptatibus repellat. Nulla quo dicta soluta sapiente!
         </p>
         <button type="button">
-          <a href="#">Ver projeto online</a>
+          <a href="https://event-plataform-tau.vercel.app/">Ver projeto online</a>
         </button>
       </main>
     </ProjetoContainer>

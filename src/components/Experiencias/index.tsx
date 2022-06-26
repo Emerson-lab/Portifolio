@@ -6,7 +6,7 @@ import ExperienciaItem from './ExperienciaItem';
 function Experiencias() {
   return (
     <Container>
-      <SectionTitle title="05 Anos" description="de experiência" />
+      <SectionTitle title="02 Anos" description="de experiência" />
 
       <section>
         <ExperienciaItem

@@ -5,13 +5,13 @@ import Link from "next/link";
 interface ProjetoItemProps {
   title: string;
   type: string;
-  imgUrl: string;
+  img: string;
   slug: string;
 }
 
-function ProjetoItem({ title, type, imgUrl, slug }: ProjetoItemProps) {
+function ProjetoItem({ title, type, img, slug }: ProjetoItemProps) {
   return (
-    <Container imgUrl={imgUrl}>
+    <Container img={img}>
       <Link href={`/projetos/${slug}`}>
         <a>
           <div className="overlay"/>
