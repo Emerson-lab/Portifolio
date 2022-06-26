@@ -25,7 +25,7 @@ export default function Projetos() {
           slug="event-plataform"
         />
         <ProjetoItem
-          title="Projeto 01"
+          title="Projeto 02"
           type="Website"
           img="https://www.visus360.com.br/wp-content/uploads/2021/05/types-of-websites.jpg"
           slug="teste"
