@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { get_Repos } from '../../services/get';
 
 import imgEventPlataform from '../../assets/event-plataform-img.png';
-import imgWorldTrip from '../../assets/world-trip.png';
+// import imgWorldTrip from '../../assets/world-trip.png';
 
 export default function Projetos() {
   const [repo, setRepo] = useState([]);
@@ -27,12 +27,12 @@ export default function Projetos() {
           img={imgEventPlataform}
           slug="event-plataform"
         />
-        <ProjetoItem
+        {/* <ProjetoItem
           title="World Trip"
           type="Website"
-          img='/assets/world-trip.png'
+          img={imgWorldTrip}
           slug="world-trip"
-        />
+        /> */}
         <ProjetoItem
           title="Projeto 01"
           type="Website"
