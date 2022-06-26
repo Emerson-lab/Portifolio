@@ -14,7 +14,7 @@ export default function Projetos() {
   useEffect(() => {
     get_Repos().then(response => {
       setRepo(response.data)
-      console.log(repo)
+      // console.log(repo)
     })
   },[])
   return (
